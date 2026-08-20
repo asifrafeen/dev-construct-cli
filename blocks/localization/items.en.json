@@ -1,0 +1,7 @@
+{
+  "items.title": "Items",
+  "items.subtitle": "A static sample list -- no Blocks Data schema behind it.",
+  "items.name": "Name",
+  "items.owner": "Owner",
+  "items.status": "Status"
+}
