@@ -1,0 +1,112 @@
+  
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules
+**/node_modules
+.pnpm-store
+.npm
+.yarn/cache
+.yarn/unplugged
+
+# ==========================================
+# Build Outputs
+# ==========================================
+dist
+build
+out
+.next
+.cache
+.parcel-cache
+.vite
+coverage
+storybook-static
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==========================================
+# Git & Version Control
+# ==========================================
+.git
+.gitignore
+.gitattributes
+.gitmodules
+
+# ==========================================
+# Docker Files
+# ==========================================
+Dockerfile*
+docker-compose*
+compose.yaml
+compose.yml
+.dockerignore
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.vscode
+.idea
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+*.bak
+*.old
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN
+
+# ==========================================
+# Testing & Reports
+# ==========================================
+coverage
+.nyc_output
+test-results
+playwright-report
+*.lcov
+
+# ==========================================
+# Documentation & Miscellaneous
+# ==========================================
+README.md
+CHANGELOG.md
+LICENSE
+docs
+*.md
+
+# ==========================================
+# Local Configuration
+# ==========================================
+*.local
+.eslintcache
+.stylelintcache
+tsconfig.tsbuildinfo
